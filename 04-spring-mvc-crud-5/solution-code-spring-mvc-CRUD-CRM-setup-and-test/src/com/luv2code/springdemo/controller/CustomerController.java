@@ -10,8 +10,6 @@ public class CustomerController {
 
 	@RequestMapping("/list")
 	public String listCustomers(Model theModel) {
-		
-		
 		return "list-customers";
 	}
 	
